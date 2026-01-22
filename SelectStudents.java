@@ -10,9 +10,9 @@ public class SelectStudents {
         try {
             // 1. Connect
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/jdbc_practice",
+                ":url",
                 "root",
-                "Sappmcsg1$"
+                "pass"
             );
 
             // 2. Write SELECT query
