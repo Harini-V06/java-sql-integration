@@ -14,9 +14,9 @@ public class Making_Connection {
     public static Connection getConnection() throws SQLException {
         // Database Connection Details
         // The address of your MySQL database.
-        String url = "jdbc:mysql://localhost:3306/jdbc_practice";
+        String url = "the url";
         String user = "root";
-        String password = "Sappmcsg1$";
+        String password = "password";
 
         return DriverManager.getConnection(url, user, password);
         // DriverManager.getConnection() tries to establish a connection using the URL, username, and password.
